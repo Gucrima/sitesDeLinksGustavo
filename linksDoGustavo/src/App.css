@@ -10,11 +10,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 10%;
     margin-left: 10px;
     border-radius: 20px;
-    width: 90%;
-    height: auto;
     background-color: rgb(122, 155, 79);
     padding: 20px;
   }
