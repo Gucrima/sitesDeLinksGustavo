@@ -13,7 +13,6 @@ function App() {
       <div className="conteiner-links">
         <img className='FotoGustavo'src="Images/gustavoFoto.png" alt="" />
       <h1>Gustavo Franco</h1>
-      <p>Aqui possui alguns Contatos e Projetos meus</p>
         <a className='texto-botao' href="https://github.com/Gucrima">
         <button className='botao-dos-links2'> <TbBrandGithubFilled className='icon-git'/>GitHub</button>
         </a>
