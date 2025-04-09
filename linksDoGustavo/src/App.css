@@ -37,12 +37,12 @@
     transition: all 0.3s ease;
   }
   
-  .botao-dos-links:hover,
-  .botao-dos-links2:hover,
-  .botao-dos-links3:hover,
-  .botao-dos-links4:hover,
-  .botao-dos-links5:hover,
-  .botao-dos-links6:hover {
+  .botao-dos-links:active,
+  .botao-dos-links2:active,
+  .botao-dos-links3:active,
+  .botao-dos-links4:active,
+  .botao-dos-links5:active,
+  .botao-dos-links6:active {
     transform: scale(1.05);
   }
   
