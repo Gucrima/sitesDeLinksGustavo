@@ -134,3 +134,78 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+## Compiled binary and object files
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.dll
+*.exe
+*.log
+*.vspscc
+*.pdb
+
+## Visual Studio files
+.vscode/
+.vs/
+*.dbmdl
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## Publish outputs
+publish/
+*.publish.xml
+
+## Rider IDE
+.idea/
+
+## dotCover
+*.dotCover
+
+## Logs
+*.log
+logs/
+
+## Temporary files
+*.tmp
+*.bak
+*.old
+
+## Secrets & configs (customize as needed)
+appsettings.Development.json
+appsettings.*.json
+
+## Global JetBrains Rider settings
+.idea/
+
+## Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+## Entity Framework
+Migrations/
+
+## Other
+*.cache
+*.orig
+
