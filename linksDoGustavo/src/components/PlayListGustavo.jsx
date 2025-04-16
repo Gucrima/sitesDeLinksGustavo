@@ -11,17 +11,17 @@ function PlayListGustavo() {
     const playlist = [
         {
             title: 'In My Life (Remastered 2009) - The Beatles',
-            src: './public/musicas/In My Life (Remastered 2009).mp3',
+            src: '/musicas/In My Life (Remastered 2009).mp3',
             cover: 'https://upload.wikimedia.org/wikipedia/pt/7/78/The_Beatles_-_HRubber_Soul.jpg',
         },
         {
             title: 'Ain t No Mountain High Enough - Marvin Gaye',
-            src: './public/musicas/Ain t No Mountain High Enough (extra HQ) - Marvin Gaye & Tammi Terrell - Doc Rudy  Soul Studios.mp3',
+            src: '/musicas/Ain t No Mountain High Enough (extra HQ) - Marvin Gaye & Tammi Terrell - Doc Rudy  Soul Studios.mp3',
             cover: 'https://i.scdn.co/image/ab67616d0000b2739173e50e99bdea2400222f02',
         },
         {
             title: 'Bon Jovi - Bed Of Roses',
-            src: './public/musicas/Bon Jovi - Bed Of Roses (Official Music Video).mp3',
+            src: '/musicas/Bon Jovi - Bed Of Roses (Official Music Video).mp3',
             cover: 'https://cdn-images.dzcdn.net/images/cover/4a2821c5cfa61955ddd982c15cc21882/500x500.jpg',
         },
     ];
