@@ -6,6 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaSpotify } from "react-icons/fa";
 import { PiFileCSharp } from "react-icons/pi";
+import PlayListGustavo from './PlayListGustavo';
 
 function FrontComOsLinks() {
   return (
@@ -13,6 +14,7 @@ function FrontComOsLinks() {
       <div className="conteiner-links">
         <img className='FotoGustavo'src="Images/gustavoFoto.png" alt="" />
       <h1>Gustavo Franco</h1>
+       <PlayListGustavo/>
         <a className='texto-botao' href="https://www.jw.org/pt/testemunhas-de-jeova/">
         <button className='botao-dos-links6'>JW.org</button>
         </a>

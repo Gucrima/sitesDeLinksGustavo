@@ -1,0 +1,28 @@
+.Botoes-play-list {
+    width: 40px; /* Largura fixa */
+    height: 40px; /* Altura fixa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px; /* Tamanho da fonte */
+    border: none;
+    border-radius: 50%; /* Deixa os botões arredondados */
+    background-color: #3b5739; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Animação suave ao passar o mouse */
+}
+
+.Botoes-play-list:hover {
+    transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
+    background-color: white; /* Cor de fundo ao passar o mouse */
+    color: #2a4a2e;
+}
+
+
+.container-botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
