@@ -26,3 +26,29 @@
     justify-content: center;
     gap: 20px;
 }
+
+.botão-liberacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2a709b;
+    background: linear-gradient(272deg,rgba(42, 112, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(114, 237, 83, 1) 100%);
+    border: solid 2px #474747;
+    height: 50px;
+    width: 300px;
+    color: rgb(34, 34, 34);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+.botão-liberacao{
+    width: 100%; /* Largura total em telas menores */
+    height: 40px; /* Altura reduzida em telas menores */
+    font-size: 14px; /* Tamanho da fonte reduzido em telas menores */
+}
+}
