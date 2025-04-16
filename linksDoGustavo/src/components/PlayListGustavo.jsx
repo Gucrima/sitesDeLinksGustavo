@@ -55,6 +55,7 @@ function PlayListGustavo() {
 
         const togglePlay = () => {
             setIsPlaying((prev) => !prev);
+            audio.play();
         };
 
         const toggleMute = () => {
