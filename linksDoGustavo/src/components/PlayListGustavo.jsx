@@ -11,17 +11,17 @@ function PlayListGustavo() {
     const playlist = [
         {
             title: 'In My Life (Remastered 2009) - The Beatles',
-            src: '/musicas/In My Life (Remastered 2009).mp3',
+            src: '/Musicas/In My Life (Remastered 2009).mp3',
             cover: 'https://upload.wikimedia.org/wikipedia/pt/7/78/The_Beatles_-_HRubber_Soul.jpg',
         },
         {
             title: 'Ain t No Mountain High Enough - Marvin Gaye',
-            src: '/musicas/Ain t No Mountain High Enough (extra HQ) - Marvin Gaye & Tammi Terrell - Doc Rudy  Soul Studios.mp3',
+            src: '/Musicas/Ain t No Mountain High Enough (extra HQ) - Marvin Gaye & Tammi Terrell - Doc Rudy  Soul Studios.mp3',
             cover: 'https://i.scdn.co/image/ab67616d0000b2739173e50e99bdea2400222f02',
         },
         {
             title: 'Bon Jovi - Bed Of Roses',
-            src: '/musicas/Bon Jovi - Bed Of Roses (Official Music Video).mp3',
+            src: '/Musicas/Bon Jovi - Bed Of Roses (Official Music Video).mp3',
             cover: 'https://cdn-images.dzcdn.net/images/cover/4a2821c5cfa61955ddd982c15cc21882/500x500.jpg',
         },
     ];
@@ -34,14 +34,12 @@ function PlayListGustavo() {
 
     const handleUserInteraction = () => {
         setHasInteracted(true);
-        // Carrega o áudio e tenta reproduzir imediatamente
         if (audioRef.current) {
             audioRef.current.src = playlist[currentTrack].src;
             audioRef.current.load();
             audioRef.current.play().catch((error) => {
-                if (error.name !== 'AbortError') {
-                    console.error('Erro ao reproduzir o áudio no botão de liberação:', error);
-                }
+                console.error('Erro ao reproduzir o áudio:', error);
+                alert('Não foi possível reproduzir o áudio. Verifique o caminho ou o formato do arquivo.');
             });
         }
     };
