@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProjetosEmC#\\BackContador\\BackContador\\BackContador.csproj": {}
+    "C:\\Repos\\sitesDeLinksGustavo\\BackContador\\BackContador\\BackContador.csproj": {}
   },
   "projects": {
-    "C:\\ProjetosEmC#\\BackContador\\BackContador\\BackContador.csproj": {
+    "C:\\Repos\\sitesDeLinksGustavo\\BackContador\\BackContador\\BackContador.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProjetosEmC#\\BackContador\\BackContador\\BackContador.csproj",
+        "projectUniqueName": "C:\\Repos\\sitesDeLinksGustavo\\BackContador\\BackContador\\BackContador.csproj",
         "projectName": "BackContador",
-        "projectPath": "C:\\ProjetosEmC#\\BackContador\\BackContador\\BackContador.csproj",
+        "projectPath": "C:\\Repos\\sitesDeLinksGustavo\\BackContador\\BackContador\\BackContador.csproj",
         "packagesPath": "C:\\Users\\gusss\\.nuget\\packages\\",
-        "outputPath": "C:\\ProjetosEmC#\\BackContador\\BackContador\\obj\\",
+        "outputPath": "C:\\Repos\\sitesDeLinksGustavo\\BackContador\\BackContador\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,24 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
