@@ -6,6 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaSpotify } from "react-icons/fa";
 import { PiFileCSharp } from "react-icons/pi";
+import { FaRegUserCircle } from "react-icons/fa";
 import PlayListGustavo from './PlayListGustavo';
 
 function FrontComOsLinks() {
@@ -15,8 +16,8 @@ function FrontComOsLinks() {
         <img className='FotoGustavo'src="Images/gustavoFoto.png" alt="" />
       <h1>Gustavo Franco</h1>
        <PlayListGustavo/>
-        <a className='texto-botao' href="https://www.jw.org/pt/testemunhas-de-jeova/">
-        <button className='botao-dos-links6'>JW.org</button>
+        <a className='texto-botao' href="https://portifolio-gustavo-nu.vercel.app/">
+        <button className='botao-dos-links6'> <FaRegUserCircle className='icon-git' />Meu portifólio</button>
         </a>
         <a className='texto-botao' href="https://github.com/Gucrima">
         <button className='botao-dos-links1'> <TbBrandGithubFilled className='icon-git'/>GitHub</button>
