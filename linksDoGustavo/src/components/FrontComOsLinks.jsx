@@ -1,5 +1,6 @@
 import React from 'react'
 import './FrontComOsLinks.css'
+import Contador from './Contador'
 import { TbBrandGithubFilled } from "react-icons/tb";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -25,9 +26,9 @@ function FrontComOsLinks() {
         <a className='texto-botao' href="https://www.linkedin.com/in/gustavo-franco-83b4022a7/">
         <button className='botao-dos-links2'> <FaLinkedin className='icon-git' /> Linkdln</button>
         </a>
-        <a className='texto-botao' href="https://www.instagram.com/gustavo.sfranco/">
+        {/* <a className='texto-botao' href="https://www.instagram.com/gustavo.sfranco/">
         <button className='botao-dos-links3'> <FaInstagram className='icon-git' /> Instagram</button>
-        </a>
+        </a> */}
         <a className='texto-botao' href="mailto:gusssoares09@gmail.com?subject=olá">
         <button className='botao-dos-links4'> <BiLogoGmail className='icon-git' /> Gmail</button>
         </a>
