@@ -18,7 +18,7 @@ function FrontComOsLinks() {
       <h1>Gustavo Franco</h1>
        <PlayListGustavo/>
         <a className='texto-botao' href="https://portifolio-gustavo-nu.vercel.app/">
-        <button className='botao-dos-links6'> <FaRegUserCircle className='icon-git' />Meu portifólio</button>
+        <button className='botao-dos-links6'> <FaRegUserCircle className='icon-git' /> Portifólio</button>
         </a>
         <a className='texto-botao' href="https://github.com/Gucrima">
         <button className='botao-dos-links1'> <TbBrandGithubFilled className='icon-git'/>GitHub</button>

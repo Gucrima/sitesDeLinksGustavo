@@ -7,7 +7,7 @@
     font-size: 16px; /* Tamanho da fonte */
     border: none;
     border-radius: 50%; /* Deixa os botões arredondados */
-    background-color: #3b5739; /* Cor de fundo */
+    background-color: 	#A3C9A8; /* Cor de fundo */
     color: white; /* Cor do texto */
     cursor: pointer;
     transition: transform 0.2s ease; /* Animação suave ao passar o mouse */
@@ -16,7 +16,7 @@
 .Botoes-play-list:hover {
     transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
     background-color: white; /* Cor de fundo ao passar o mouse */
-    color: #2a4a2e;
+    color: #A3C9A8;
 }
 
 
@@ -31,8 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #2a709b;
-    background: linear-gradient(272deg,rgba(42, 112, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(114, 237, 83, 1) 100%);
+    background: #A3C9A8;
     border: solid 2px #474747;
     height: 50px;
     width: 300px;
@@ -43,6 +42,14 @@
     font-size: 16px;
     font-family: 'inter', sans-serif;
     font-weight: 600;
+}
+
+.titulo-musicas{
+    font-size: 24px;
+    font-weight: bold;
+    color: #A3C9A8;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 @media (max-width: 768px) {

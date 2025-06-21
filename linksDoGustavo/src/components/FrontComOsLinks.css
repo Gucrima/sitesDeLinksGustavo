@@ -3,15 +3,15 @@
 .container{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     margin: auto;
-    /* height: 105vh; */
     flex-wrap: wrap;
-    gap: 10px;
-    background: #1e4f70;
-    background: linear-gradient(272deg,rgba(30, 79, 112, 1) 0%, rgba(65, 158, 104, 1) 50%, rgba(61, 122, 45, 1) 100%);
- 
+    background: #2E2E2E;
+    max-width: 100%;
+    min-height: 100vh;
+    /* justify-content: center; */
+    /* height: 105vh; */
+    /* gap: 10px; */
 }
 
 .conteiner-links{
@@ -20,10 +20,10 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    min-height: 90vh;
     gap: 10px;
     width: 70%;
-    background: #2a709b;
-    background: linear-gradient(272deg,rgba(42, 112, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(114, 237, 83, 1) 100%);
+    background:#7D7D7D;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -33,7 +33,7 @@
 
 .conteiner-links h1{
     font-size: 30px;
-    color: #3b5739;
+    color: #2E2E2E;
     text-align: center;
     margin-top: 2px;
     font-family: 'inter', sans-serif;
@@ -46,7 +46,7 @@
     height: 170px;
     border-radius: 50%;
     margin-top: 20px;
-    border: rgb(44, 109, 89) solid 5px;
+    border: 	#2E2E2E solid 5px;
 }
 
 .FotoGustavo:hover{
@@ -178,11 +178,11 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f9;
-    border: solid 2px #2a9d8f;
+    background-color: #393939;
+    border: solid 2px 	#7D7D7D;
     height: 60px;
     width: 400px;
-    color: #2a9d8f;
+    color: 	#7D7D7D;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -191,7 +191,7 @@ a{
     font-weight: 600;
 }
 .botao-dos-links6:hover{
-    background-color: #2a9d8f;
+    background-color: #393939;
     transform: scale(1.1);
     transition: 0.3s;
 }

@@ -116,7 +116,7 @@ function PlayListGustavo() {
                 onClick={handleUserInteraction}
                 className='botão-liberacao'
             >
-                Quer ouvir uma musiquinha?
+                Quer ouvir algumas músicas?
             </button>
         );
     }
