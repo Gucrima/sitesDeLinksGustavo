@@ -14,7 +14,7 @@ function FrontComOsLinks() {
   return (
     <div className='container'>
       <div className="conteiner-links">
-        <img className='FotoGustavo'src="Images/gustavoFoto.png" alt="" />
+        <img className='FotoGustavo'src="Images/foto-perfil-3.png" alt="" />
       <h1>Gustavo Franco</h1>
        <PlayListGustavo/>
         <a className='texto-botao' href="https://portifolio-gustavo-nu.vercel.app/">

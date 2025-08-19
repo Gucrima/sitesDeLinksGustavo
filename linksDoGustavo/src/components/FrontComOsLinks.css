@@ -40,7 +40,7 @@
 
 
 .FotoGustavo{
-    width: 170px;
+    width: 180px;
     height: 170px;
     border-radius: 50%;
     margin-top: 20px;
@@ -61,7 +61,7 @@ a{
     justify-content: center;
     align-items: center;
     background-color: #4c4c4c;
-    border: solid 2px #414040;
+    border: solid 3px #3896b0;
     height: 60px;
     width: 400px;
     color: white;
@@ -84,7 +84,7 @@ a{
     justify-content: center;
     align-items: center;
     background-color: #3175d4;
-    border: solid 2px #2c6fba;
+    border: solid 3px #3896b0;
     height: 60px;
     width: 400px;
     color: white;
@@ -128,7 +128,7 @@ a{
     justify-content: center;
     align-items: center;
     background-color: #e0dddd;
-    border: solid 2px #e0e0e0;
+    border: solid 3px #3896b0;
     height: 60px;
     width: 400px;
     color: rgb(224, 0, 0);
@@ -150,7 +150,7 @@ a{
     justify-content: center;
     align-items: center;
     background-color: #40c417;
-    border: solid 2px #474747;
+    border: solid 3px #3896b0;
     height: 60px;
     width: 400px;
     color: rgb(34, 34, 34);
@@ -177,10 +177,10 @@ a{
     justify-content: center;
     align-items: center;
     background-color: #393939;
-    border: solid 2px 	#7D7D7D;
+    border: solid 3px #3896b0;
     height: 60px;
     width: 400px;
-    color: 	#7D7D7D;
+    color: 	#3896b0;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -204,7 +204,7 @@ a{
     justify-content: center;
     align-items: center;
     background-color: #e8cafa;
-    border: solid 2px #9931c6;
+    border: solid 3px #3896b0;
     height: 60px;
     width: 400px;
     color: #9931c6;
